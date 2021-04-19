@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+listing1 = Listing.create(location: "Napa, CA", image: "", description: "It's stunning, on the beach!", price: 1500)
+
+puts "seeded!"
