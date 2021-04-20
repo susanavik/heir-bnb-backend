@@ -13,18 +13,18 @@ Guest.destroy_all
 
 
 puts "Seeding Listings!"
-Listing.create(name: "Napa Winery", location: "Napa, CA", image: "app/assets/napa house.jpg", description: "It's stunning, on the beach!", price: 3500)
-Listing.create(name: "Austin's Finest Mansion", location: "Austin, TX", image: "app/assets/austin texas.jpg", description: "Lovely cabin, sleeps 25, makes you feel one with nature", price: 1500)
-Listing.create(name: "White Italian Monstrocity", location: "Amalfi Coast, Italy", image: "app/assets/italy house.jpg", description: "Jump on in to the stunning pools, or take a climb into the coastal rock formations", price: 2000)
-Listing.create(name: "The English Countryside Mansion", location: "Manchester, England", image: "app/assets/Manchester England House.jpg", description: "A proper get away in the English countryside. Horse stables on property and avialable to ride into the sunset", price: 2500)
-Listing.create(name: "Perry's Palace", location: "Atlanta, GA", image: "app/assets/Tyler-Perry’s-Atlanta-Stunning-Mansion-Just-Sold-for-17.5-Million-670x290.jpg", description: "Hidden in plain view, this Atlanta jewel gives all the luxury and comfort you can dream of", price: 10000)
+Listing.create(name: "Napa Winery", location: "Napa, CA", image: "napa house.jpg", description: "It's stunning, on the beach!", price: 3500)
+Listing.create(name: "Austin's Finest Mansion", location: "Austin, TX", image: "austin texas.jpg", description: "Lovely cabin, sleeps 25, makes you feel one with nature", price: 1500)
+Listing.create(name: "White Italian Monstrocity", location: "Amalfi Coast, Italy", image: "italy house.jpg", description: "Jump on in to the stunning pools, or take a climb into the coastal rock formations", price: 2000)
+Listing.create(name: "The English Countryside Mansion", location: "Manchester, England", image: "Manchester England House.jpg", description: "A proper get away in the English countryside. Horse stables on property and avialable to ride into the sunset", price: 2500)
+Listing.create(name: "Perry's Palace", location: "Atlanta, GA", image: "Tyler-Perry’s-Atlanta-Stunning-Mansion-Just-Sold-for-17.5-Million-670x290.jpg", description: "Hidden in plain view, this Atlanta jewel gives all the luxury and comfort you can dream of", price: 10000)
 
-Listing.create(name: "Skier Paradise", location: "Vail, CO", image: "app/assets/Vail-getaway.jpg", description: "Ski-in luxury in the heart of Breaver Creek!", price: 1270)
-Listing.create(name: "Star-gazers Getaway", location: "Aspen, CO", image: "app/assets/Aspen-mansion.jpg", description: "This ranch is a breathtaking property set on the Frying Pan River, offering spectacular views and star filled nights", price: 1550)
-Listing.create(name: "Telluride's Winter Wonderland", location: "Telluride, CO", image: "app/assets/Telluride Ranch.jpg", description: "This Telluride Benchmark House is an alpine ski-in/ski-out private luxury home located in the heart of the Tellluride ski resort", price: 780)
-Listing.create(name: "Jackson's Finest", location: "Jackson Hole, WY", image: "app/assets/Jackson Hole mansion.jpg", description: "The best that Jackson Hole has to offer located just north of downtown Jackson", price: 7000)
-Listing.create(name: "The Alps Chalet", location: "Courchevel, France", image: "app/assets/Courchevel Resort.jpg", description: "Chalet ideally placed for the centre of Courchevel 1850 ski resort", price: 2500)
-Listing.create(name: "A Traditional Swiss Chalet", location: "St. Moritz, Switzerland", image: "app/assets/St Moritz Chalet.jpg", description: "This dreamlike property embodies irresistible charm, security and style", price: 3500)
+Listing.create(name: "Skier Paradise", location: "Vail, CO", image: "Vail-getaway.jpg", description: "Ski-in luxury in the heart of Breaver Creek!", price: 1270)
+Listing.create(name: "Star-gazers Getaway", location: "Aspen, CO", image: "Aspen-mansion.jpg", description: "This ranch is a breathtaking property set on the Frying Pan River, offering spectacular views and star filled nights", price: 1550)
+Listing.create(name: "Telluride's Winter Wonderland", location: "Telluride, CO", image: "Telluride Ranch.jpg", description: "This Telluride Benchmark House is an alpine ski-in/ski-out private luxury home located in the heart of the Tellluride ski resort", price: 780)
+Listing.create(name: "Jackson's Finest", location: "Jackson Hole, WY", image: "Jackson Hole mansion.jpg", description: "The best that Jackson Hole has to offer located just north of downtown Jackson", price: 7000)
+Listing.create(name: "The Alps Chalet", location: "Courchevel, France", image: "Courchevel Resort.jpg", description: "Chalet ideally placed for the centre of Courchevel 1850 ski resort", price: 2500)
+Listing.create(name: "A Traditional Swiss Chalet", location: "St. Moritz, Switzerland", image: "St Moritz Chalet.jpg", description: "This dreamlike property embodies irresistible charm, security and style", price: 3500)
 
 Listing.create(name: "Le Alphane", location: "Gouverneur, St. Barts", image: "st-barts-clubhouse-villa.jpeg", description: "Striking luxury resort-style is what defines the St. Barts Clubhouse Villa, a spacious oasis in the hills above Lurin with six bedrooms that sleeps up to 12; the house can be rented as a four, five or six-bedroom.", price: 45000)
 Listing.create(name: "Villa Carlotta", location: "Cala di Volpe, Sardinia", image: "cala-di-volpe-villa.png", description: "Designed by an internationally renowned architect, this elegant villa is elevated above Costa Smeralda’s countryside and enjoys exceptional views along the coastline. The home incorporates an array of unique features to create an idyllic retreat in an incredible environment.", price: 10000)
