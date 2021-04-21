@@ -19,15 +19,16 @@ class ListingsController < ApplicationController
     end
 
     def update
-        listing = listing.find(params[:id])
+        listing = Listing.find(params[:id])
         listing.update!(listing_params)
     end
 
     def destroy
-        listing = listing.find(params[:id])
+        listing = Listing.find(params[:id])
         listing.destroy
     end
 
+    private
     def listing_params
         params.require(:listing).permit(:rating, :review)
     end
