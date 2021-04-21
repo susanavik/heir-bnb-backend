@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2021_04_21_155232) do
     t.datetime "updated_at", precision: 6, null: false
     t.date "checkin"
     t.date "checkout"
-  endcd
+  end
 
   create_table "guests", force: :cascade do |t|
     t.string "name"
