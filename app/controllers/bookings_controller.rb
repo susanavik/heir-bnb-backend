@@ -20,8 +20,9 @@ class BookingsController < ApplicationController
         booking.destroy
     end
 
+    private
     def booking_params
-        params.require(:booking).permit(:listing_id, :guest_id, :rating, :review)
+        params.require(:booking).permit(:listing_id, :guest_id, :checkin, :checkout)
     end
 
 end
