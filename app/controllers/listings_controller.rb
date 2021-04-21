@@ -13,6 +13,23 @@ class ListingsController < ApplicationController
         end
     end
 
+    def create 
+        listing = Listing.new(listing_params)
+        render json: listing
+    end
 
+    def update
+        listing = listing.find(params[:id])
+        listing.update!(listing_params)
+    end
+
+    def destroy
+        listing = listing.find(params[:id])
+        listing.destroy
+    end
+
+    def listing_params
+        params.require(:listing).permit(:rating, :review)
+    end
 
 end
