@@ -6,8 +6,7 @@ class ReviewsController < ApplicationController
     end
 
     def show
-        
-    review = Review.find(params[:id])
+        review = Review.find(params[:id])
         if review
             render json: review
         else
@@ -30,9 +29,8 @@ class ReviewsController < ApplicationController
         review.destroy
     end
 
-private
+# private
     def review_params
         params.require(:review).permit(:rating, :comment)
     end
-
 end

@@ -12,6 +12,4 @@ class ListingsController < ApplicationController
             render json: { error: "Not found!" }, status: 404
         end
     end
-
-
 end
