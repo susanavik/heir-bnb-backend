@@ -7,7 +7,7 @@ class ListingsController < ApplicationController
     def show
         listing = Listing.find(params[:id])
         if listing
-            render json: listing
+            render json: listing, include: :reviews
         else
             render json: { error: "Not found!" }, status: 404
         end
