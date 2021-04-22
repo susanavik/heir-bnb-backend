@@ -11,12 +11,12 @@ class BookingsController < ApplicationController
     end
 
     def update
-        booking = booking.find(params[:id])
+        booking = Booking.find(params[:id])
         booking.update!(booking_params)
     end
 
     def destroy
-        booking = booking.find(params[:id])
+        booking = Booking.find(params[:id])
         booking.destroy
     end
 
